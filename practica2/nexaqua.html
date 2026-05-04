@@ -1,0 +1,53 @@
+<!--
+💧 Laboratorio 2: La Batalla de Nex Aqua (Especificidad)
+Objetivo: Entender la especificidad (Sección 19) y cómo el navegador decide qué estilo aplicar cuando hay conflicto.
+
+El Código Inicial (Cópialo en tu HTML):
+
+HTML
+<div class="purificador-info">
+  <p id="alerta-instalacion" class="texto-importante">
+    Instalación programada para mañana en La Molina.
+  </p>
+</div>
+El reto CSS:
+Imagina que escribiste este CSS:
+
+CSS
+p {
+  color: green;
+}
+
+.texto-importante {
+  color: orange;
+}
+
+#alerta-instalacion {
+  color: red;
+}
+Antes de probarlo en el navegador, deduce mentalmente: ¿De qué color se va a pintar el texto? ¿Verde, naranja o rojo?
+
+Pruébalo en tu VS Code.
+
+Ahora, sin borrar el ID ni cambiar el HTML, escribe una sola línea nueva de CSS usando un selector más específico 
+que logre que el texto se vuelva color azul (blue). Pista: Tienes que ganarle al peso del ID.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <link rel="stylesheet" href="nex.css">
+</head>
+<body>
+    <div class="purificador-info">
+        <p id="alerta-instalacion" class="texto-importante">
+          Instalación programada para mañana en La Molina.
+        </p>
+      </div>
+</body>
+</html>

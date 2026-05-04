@@ -1,0 +1,46 @@
+<!--
+    ⚽ Laboratorio 3: Agrupación y Transformaciones en la Cancha
+Objetivo: Aplicar las mismas propiedades a múltiples elementos a la vez sin repetir código (Sección 18 y 20).
+
+Instrucciones:
+
+Crea una estructura HTML con un <h1> que diga "Alineación Alianza Lima", un par de párrafos <p> con nombres de jugadores, 
+y unos enlaces <a> que simulen botones de "Ver estadísticas".
+
+El reto CSS:
+
+Necesitas que el <h1>, los párrafos y los enlaces compartan exactamente el mismo color azul oscuro y el mismo tipo de fuente. 
+Hazlo usando una sola regla CSS agrupada (separando los selectores con comas).
+
+Crea una clase .resaltado y agrégala solo al jugador que consideres la estrella del equipo. En tu CSS, usa esa clase para aplicarle 
+un color de fondo (background-color) distinto y cambiar el color de la letra para que haga contraste.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupacion</title>
+    <link rel="stylesheet" href="agrupacion.css">
+</head>
+
+<body>
+    <h1>Trinchera Norte</h1>
+
+    <p>Andy Polo</p>
+    <a href="#">Ver estadísticas</a>
+    <div>
+        <p class="mvp">José Carabali</p>
+        <a class="mvp">Ver estadísticas</a>
+    </div>
+    <p>Caín Fara</p>
+    <a href="#">Ver estadísticas</a>
+    <p>Cesar Inga</p>
+    <a href="#">Ver estadísticas</a>
+
+</body>
+
+</html>

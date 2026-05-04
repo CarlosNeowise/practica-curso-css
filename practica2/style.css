@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(245, 244, 233);
+}
+
+/*Titulo h1*/
+
+#titulo-principal{
+    color: #432004;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.origen-destacado{
+    color: rgb(10, 63, 10);
+}

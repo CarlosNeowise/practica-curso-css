@@ -1,0 +1,48 @@
+<!--
+    ☕ Laboratorio 1: El Catálogo de Cashuna (Selectores y Clases)
+Objetivo: Conectar una hoja de estilos externa, usar etiquetas, clases e IDs para estructurar un catálogo de café.
+
+Instrucciones:
+
+Crea un archivo index.html y un style.css (asegúrate de enlazarlos correctamente en el <head>).
+
+Escribe una estructura HTML que contenga:
+
+Un título principal <h1> con el nombre de tu marca.
+
+Un subtítulo <h2> que diga "Nuestros Granos".
+
+Una lista desordenada <ul> con 3 elementos <li>. Dos de ellos serán cafés genéricos y uno será "Café de Villa Rica".
+
+El reto CSS:
+
+Dale un id="titulo-principal" al <h1> y usa ese ID en tu CSS para poner el texto en color marrón (puedes usar un código HEX).
+
+Aplica una transformación de texto en CSS para que el <h2> esté siempre en mayúsculas (uppercase), sin importar cómo lo escribiste en el HTML.
+
+Crea una clase llamada .origen-destacado. Aplícasela solo al <li> del Café de Villa Rica y haz que su color de texto sea diferente al resto de la lista.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 id="titulo-principal">Cashuna</h1>
+    
+    <h2>Nuestros Granos</h2>
+
+    <ul>
+        <li class="origen-destacado">Café de Villa Rica</li>
+        <li>Cafecito</li>
+        <li>Espreso</li>
+    </ul>
+
+</body>
+</html>

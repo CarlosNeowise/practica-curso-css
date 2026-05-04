@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(245, 244, 233);
+}
+
+p {
+    color: green;
+}
+
+.texto-importante {
+    color: orange;
+}
+
+#alerta-instalacion {
+    color: red;
+}
+
+.purificador-info .texto-importante {
+    color: blue !important;
+}
+
+/*
+div #alerta-instalacion {
+  color: blue;
+}
+
+p#alerta-instalacion {
+  color: blue;
+}
+*/
